@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.upper-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.secondary {
+    display: flex;
+    font-size: 18px;
+    color: #8c9dc0;
+    padding: 12px;
+}
+
+.peak {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    padding: 12px;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.under {
+    width: 300px;
+}
+
+
+.move {
+    padding: 6px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first {
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+
+}
+
+.random {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foto-block {
+    width: 250px;
+    height: 250px;
+
+}
+
+.pictures {
+    max-width: 200px;
+}
+
+.under-upper-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.words {
+    font-size: 36px;
+    font-weight: light;
+    font-family: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cite {
+    background-color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+    padding: 30px;
+}
+
+.lowest {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    gap: 200px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.bigger {
+    padding: 30px;
+}
+
+.image-text {
+    align-self: center;
+}
